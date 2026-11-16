@@ -6,7 +6,7 @@ import Collections from "../../components/Collections/Collections.tsx";
 import Filters from "../../components/Filters/Filters.tsx";
 
 export default function CollectionsCatalog() {
-  const [isFilterOpen, setIsFilterOpen] = useState(false)
+  const [isFilterOpen] = useState(false)
 
   // Временно
   const isLoading = false;

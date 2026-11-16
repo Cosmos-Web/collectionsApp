@@ -1,7 +1,7 @@
 .collections {
   background: var(--bg-color-accent);
   border-radius: 24px;
-  padding: 25px 20px 40px;
+  padding: 20px 20px 40px;
 
   @media (max-width: 375px) {
     padding: 20px 10px;
@@ -11,12 +11,14 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 120%;
-    margin-bottom: 40px;
+    padding-bottom: 16px;
+    border-bottom: 0.5px solid var(--border-color-2);
+    margin-bottom: 20px;
   }
 
   &__list {
-    li:not(:last-child) {
-      margin-bottom: 24px;
+    > li:not(:last-child) {
+      margin-bottom: 20px;
 
       @media (max-width: 375px) {
         margin-bottom: 20px;
